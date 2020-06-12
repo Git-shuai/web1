@@ -1,3 +1,14 @@
-body{
-    color: red;
+/*主颜色*/
+.color-main{
+    color: #00aab7;
+}
+
+/*次要颜色*/
+.color-second{
+    color: #b45d01;
+}
+
+/*字体*/
+.text-main{
+    color: #010101;
 }

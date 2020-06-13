@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@import "sassConfig";
+
+/*主颜色*/
+.color-main {
+    color: $color-main;
+}
+
+/*次要颜色*/
+.color-second {
+    color: $color-second;
+}
+
+/*字体*/
+.text-main {
+    color: #010101;
+}
+
+.container {
+    width: $container;
+    margin: 0 auto;
+}
+
+
+//header
+
+.logo{
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    img{
+        display: block;
+    }
+}
+
+
+//清除浮动 clearfix
+.clearfix:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix{display: inline-block;}
+* html .clearfix{height: 1%;}
+.clearfix{display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

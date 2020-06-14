@@ -19,19 +19,55 @@
 .container {
     width: $container;
     margin: 0 auto;
+
 }
 
-
+.pull-left{ float : left; }
+.pull-right{ float : right; }
 //header
 
-.logo{
-    float: left;
+.logo {
     margin-top: 30px;
     margin-bottom: 30px;
     img{
         display: block;
     }
 }
+
+//顶部导航菜单
+.menu-link {
+    line-height: 22px;
+    a,span,div{float: right;}
+    a {color: $text-gray}
+    .link {
+        width: 1px;
+        height: 12px;
+        margin: 6px 11px 0;
+        background-color: #cfcfcf;
+    }
+}
+
+//语言样式
+.lang{
+    width: 53px;
+    height: 22px;
+    background-color: #ececec;
+    color: #a0a0a0;
+    text-align: center;
+    i {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        border-left: 1px solid #000 ;
+        border-bottom: 1px solid #000 ;
+
+        //css3
+        @include webkit(box-sizing,border-box);
+    }
+}
+
+
+
 
 
 //清除浮动 clearfix

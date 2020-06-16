@@ -13,6 +13,10 @@ html {
     -webkit-text-size-adjust: 100%; /* 2 */
 }
 
+address {
+    font: inherit;
+}
+
 /* Sections
    ========================================================================== */
 
@@ -26,6 +30,7 @@ body {
     font-family: "Microsoft YaHei UI";
     font-size: 12px;
     background-color: #e2d8ce;
+    font-weight: 300;
 }
 
 /**
@@ -44,6 +49,10 @@ main {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
+}
+
+h5 {
+    font-weight: 300;
 }
 
 /* Grouping content

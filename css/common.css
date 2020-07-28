@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/*主颜色*/
+.color-main {
+  color: #01aab6; }
+
+/*次要颜色*/
+.color-second {
+  color: #b45d01; }
+
+/*字体*/
+.text-main {
+  color: #010101; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.logo {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .logo img {
+    display: block; }
+
+.menu-link {
+  margin-top: 10px;
+  line-height: 22px; }
+  .menu-link a, .menu-link span, .menu-link div {
+    float: right; }
+  .menu-link a {
+    color: #a0a0a0; }
+  .menu-link .link {
+    width: 1px;
+    height: 12px;
+    margin: 6px 11px 0;
+    background-color: #cfcfcf; }
+
+.lang {
+  position: relative;
+  width: 53px;
+  height: 22px;
+  background-color: #ececec;
+  color: #a0a0a0;
+  text-align: center; }
+  .lang:after {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    z-index: 10;
+    margin: 0 0 2px 2px;
+    border-left: 1px solid #b5b5b5;
+    border-bottom: 1px solid #b5b5b5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+  .lang:hover .lang-lang {
+    display: block; }
+  .lang .lang-lang {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 70px;
+    background-color: #ececec; }
+  .lang a {
+    display: block;
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    text-align: center; }
+    .lang a:hover {
+      color: #01aab6;
+      background-color: #e0e0e0; }
+
+nav {
+  margin-top: 55px; }
+  nav .nav a {
+    display: block;
+    width: 114px;
+    height: 53px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    line-height: 53px; }
+    nav .nav a:hover {
+      background-color: #f5f5f5; }
+  nav .nav .nav1 {
+    float: left;
+    display: inline; }
+    nav .nav .nav1:hover {
+      background-color: #eaeaea; }
+      nav .nav .nav1:hover > div {
+        display: block;
+        background-color: #eaeaea; }
+    nav .nav .nav1 .nav1-1 {
+      position: absolute;
+      display: none;
+      padding-top: 17px; }
+      nav .nav .nav1 .nav1-1 a {
+        height: 41px;
+        line-height: 41px;
+        color: #000000;
+        font-weight: normal; }
+        nav .nav .nav1 .nav1-1 a:hover {
+          background-color: #e0e0e0; }
+  nav .nav .current {
+    background-color: #e0e0e0; }
+
+body > footer {
+  padding-top: 74px;
+  background-color: #eaeaea; }
+
+#copyright {
+  margin-top: 59px;
+  border-top: 1px solid #dbdbdb;
+  line-height: 48px;
+  color: #a0a0a0;
+  text-align: center; }
+
+.footer-contact-info h5 {
+  color: #717171;
+  font-size: 24px;
+  margin-bottom: 24px; }
+.footer-contact-info p {
+  font-size: 13px;
+  color: #a0a0a0;
+  line-height: 23px; }
+.footer-contact-info a {
+  color: #a0a0a0; }
+
+.share {
+  margin-top: 38px; }
+  .share a {
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 24px;
+    background-color: #a0a0a0;
+    border-radius: 30px; }
+    .share a:hover > div {
+      visibility: visible;
+      bottom: 150%;
+      opacity: 1;
+      filter: alpha(opacity=100); }
+  .share div {
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    bottom: 140%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: -44px;
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 6px;
+    filter: alpha(opacity=0);
+    filter: drop-shadow(0 0 10px #aaa);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+  .share img {
+    width: 100%;
+    height: 100%; }
+  .share a:first-child {
+    background: url("") no-repeat 0 0 #a0a0a0; }
+    .share a:first-child:hover {
+      background-color: red; }
+  .share a:last-child {
+    background: url("") no-repeat -30px 0 #a0a0a0; }
+    .share a:last-child:hover {
+      background-color: green; }
+
+.footer-menu dl {
+  float: right;
+  width: 75px; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.clearfix {
+  display: inline-block; }
+
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/*# sourceMappingURL=common.css.map */
